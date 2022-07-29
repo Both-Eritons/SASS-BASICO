@@ -1,0 +1,13 @@
+.main_footer{
+    width: 100%;
+    background: $color_primary;
+    .main_footer_content{
+       max-width: $width-content;
+        margin: 0 auto;
+        padding: 10px;
+        p{
+            text-align: center;
+            color: white;
+        }
+    }
+}

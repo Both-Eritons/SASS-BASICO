@@ -1,0 +1,21 @@
+.main_header {
+    width: 100%;
+    background-color: $color_primary;
+
+    .main_header_nav {
+        max-width: $width-content;
+        margin: 0 auto;
+        padding: 20px;
+
+        a {
+            color: white;
+            text-decoration: none;
+            
+            
+            &:hover{
+                color: red;
+            }
+        }
+    }
+
+}
